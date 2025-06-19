@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 5;
+}
+
+progress {
+    background-color: green;
+}
+
+img {
+    border-radius: 10%;
+    margin-left: 20%;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#left-box {
+    padding: 0px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#left-box h2 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+#academic {
+    margin: 10px;
+    padding: 5px 15px;
+    border: 2px solid #076b0c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#academic h2 {
+    text-decoration: underline;
+    color: #076b0c;
+}
+
+#academic h2, h3, strong, p {
+    margin-top: 3px;
+}
+
+#professional {
+    margin: 10px;
+    padding: 5px 15px;
+    border: 2px solid #003d82;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#professional h2 {
+    text-decoration: underline;
+    color: #003d82;
+}
+
+#professional h2, h3, strong, p {
+    margin-top: 3px;
+}
+
+#projects {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #f70909;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#projects h2 {
+    text-decoration: underline;
+    color: #f70909;
+}
+
+#projects p {
+    margin: 15px 0;
+}
+
+#projects h3 {
+    margin: 15px 0;
+}
+
+a {
+    padding: 5px;
+    border: 2px solid #f70909;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+a:hover {
+    background-color: #f70909;
+    color: white;
+}
